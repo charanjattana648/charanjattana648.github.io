@@ -130,3 +130,99 @@
 .form__content--visible {
     display: block;
 }
+
+.form__forgot_password_link--hidden {
+    display: none;
+}
+
+.form__remember_me {
+    width: 44.65%;
+    display: inline-block;
+}
+
+.form__forgot_password {
+    width: 52.6%;
+    display: inline-block;
+    text-align: right;
+}
+
+.form__checkbox {
+    height: 10px;
+    width: 12px;
+    background-color: #ECECEC;
+    vertical-align: middle;
+}
+
+.form__label {
+    color: #2f3652;
+    font-weight: 600;
+}
+
+.forgot_password_link {
+    color: #2f3652;
+    text-decoration: none;
+    border-bottom: 2px solid #ececec;
+    font-weight: 600;
+}
+
+.form__forgot_password_link {
+    margin: 0 auto;
+    padding-bottom: 2px;
+}
+
+.button {
+    width: 100%;
+    background-color: #ffb503;
+    border: none;
+    border-radius: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form__submit,
+.sign_up__button {
+    margin: 10px 0;
+    padding: 8px 20px;
+}
+
+.sign_up__button--border {
+    color: #30365b;
+    background-color: #f7cf6d;
+    border: 2px solid #30365b;
+}
+
+.sign_up__button--highlight {
+    color: white;
+    background-color: #30365b;
+}
+
+.top_nav__button {
+    padding: 8px 3px;
+}
+
+.page__sign_up {
+    margin-left: 14.495%;
+}
+
+.sign_up {
+    width: 35.32%;
+    background: #f7cf6d;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px 0 0 10px;
+    height: 60.75vh;
+}
+
+.content {
+    width: 49.98%;
+    text-align: center;
+}
+
+.sign_up__content {
+    margin: 0 auto;
+    margin-top: 19.92px;
+    padding-top: 12.495vh;
+}
+
+.sign_up__title {
+    margin: 0;
+}
