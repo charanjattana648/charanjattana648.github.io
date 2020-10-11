@@ -1,0 +1,174 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .text--size_l {
+        font-size: 20px;
+    }
+    .header__title {
+        margin: 0;
+        padding-top: 17px;
+    }
+    .login {
+        width: 41.80%;
+        float: right;
+    }
+    .text--size_l {
+        font-size: 18px;
+    }
+    .text--size_m {
+        font-size: 8px;
+    }
+    .text--size_s {
+        font-size: 6px;
+    }
+    .sign_up {
+        width: 35.32%;
+    }
+    .sign_up__content {
+        width: 58.98%;
+    }
+    .form {
+        width: 66.98%;
+    }
+    .sign_up__button {
+        padding: 8px 14px;
+    }
+    .form__forgot_password {
+        font-size: 2vh;
+    }
+    .form__remember_me {
+        font-size: 2vh;
+    }
+    .top_nav__item {
+        padding: 0 0 0 1vh;
+        font-size: 2vh;
+    }
+}
+
+@media screen and (device-width: 600px) and (device-height: 960px) and (orientation: portrait) {
+    .form__forgot_password_link {
+        width: 35.5% !important;
+    }
+    .sign_up__content,
+    .form {
+        width: 75% !important;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .login,
+    .sign_up {
+        height: 52.75vh !important;
+    }
+}
+
+@media only screen and (min-device-width: 960px) and (max-device-width: 960px) and (orientation: landscape) {
+    .sign_up,
+    .login {
+        height: 62.75vh !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .text--size_l {
+        font-size: 20px;
+    }
+    .header__title {
+        margin: 0;
+        padding-top: 17px;
+    }
+    .login {
+        height: 47.75vh;
+    }
+    .sign_up {
+        height: 47.75vh;
+    }
+    .sign_up__content {
+        width: 58.98%;
+    }
+    .sign_up__title {
+        font-size: 22px;
+    }
+    .sign_up__text {
+        font-size: 11px;
+    }
+    .form {
+        width: 66.98%;
+    }
+    .sign_up__button {
+        padding: 8px 14px;
+    }
+    .form__forgot_password {
+        font-size: 11px;
+    }
+    .form__remember_me {
+        font-size: 11px;
+    }
+    .top_nav__item {
+        padding: 0 0 0 1vh;
+        font-size: 11px;
+    }
+    .header_nav__button {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 800px) and (orientation: portrait) {
+    .text--size_m {
+        font-size: 10px !important;
+    }
+    .login,
+    .sign_up {
+        height: 36.75vh;
+    }
+    .sign_up__content,
+    .login__title {
+        padding-top: 8.495vh;
+    }
+}
+
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .login,
+    .sign_up {
+        height: 52.75vh !important;
+    }
+    .text--size_s {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .login,
+    .sign_up {
+        height: 36.75vh;
+    }
+    .sign_up__content,
+    .login__title {
+        padding-top: 8.495vh;
+    }
+    .text--size_s {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+    }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+    .login,
+    .sign_up {
+        height: 36.75vh;
+    }
+}
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .login,
+    .sign_up {
+        height: 40.75vh;
+    }
+    .sign_up__content,
+    .login__title {
+        padding-top: 8.495vh;
+    }
+    .text--size_s {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+    }
+}
