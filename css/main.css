@@ -1,0 +1,132 @@
+.page {
+    margin: 0;
+    padding: 0;
+    background: #30365b;
+}
+
+.page__header {
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text--white {
+    color: white;
+}
+
+.text--blue {
+    color: #2f3652;
+}
+
+.text--size_l {
+    font-size: 24px;
+}
+
+.text--size_m {
+    font-size: 16px;
+}
+
+.text--size_s {
+    font-size: 11px;
+}
+
+.header__content {
+    width: 77.33%;
+    margin-left: 14.495%;
+}
+
+.header__title {
+    width: 30.32%;
+    margin: 20px 0 0 0;
+    float: left;
+}
+
+.text--title {
+    letter-spacing: 3px;
+}
+
+.header__nav_button--hidden {
+    display: none;
+}
+
+.top_nav {
+    width: 69.64%;
+}
+
+.top_nav--visible {
+    display: inline-block;
+}
+
+.header__nav_button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 24px;
+    color: white;
+    text-align: right;
+}
+
+.menu {
+    float: right;
+}
+
+.top_nav__item {
+    display: inline-block;
+    padding: 0 0 0 1em;
+}
+
+.top_nav__link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.page_login {
+    margin-right: 8.165%;
+}
+
+.login {
+    width: 41.80%;
+    float: right;
+    background: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 0 15px 15px 0;
+    height: 60.75vh;
+}
+
+.login__title {
+    text-align: center;
+    padding-top: 12.495vh;
+}
+
+.login__form {
+    margin: 0 auto;
+}
+
+.form {
+    width: 49.98%;
+    display: block;
+}
+
+.form__input {
+    padding: 8px 12px;
+    margin: 0 0 20px 0;
+}
+
+.input {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+}
+
+.form__content--visible {
+    display: block;
+}
