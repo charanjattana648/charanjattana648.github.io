@@ -1,7 +1,79 @@
-<html>
-    <head></head>
-    <body>
-        <header><h1>Static Page Practice</h1></header>
-        <h2>Hello World</h2>
-    </body>
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./media_mobile.css">
+    <link rel="stylesheet" href="./media_tablet.css">
+    <link rel="stylesheet" href="./media_desktop.css">
+</head>
+
+<body class="page">
+    <!-- Top header -->
+    <header class="header page__header text text--white">
+        <div class="header__content">
+            <h1 class="header__title text text--white text--title text--size_l">Welcome</h1>
+            <button class="header__nav_button header__nav_button--visible header__nav_button--hidden" onclick="myFunction()">&#9776;</button>
+            <nav class="top_nav top_nav--visible top_nav--hidden">
+                <ul class="top_nav__menu menu">
+                    <li class="top_nav__item top_nav__item--active"><a class="top_nav__link text text--white text--size_m" href="#">Schools</a></li>
+                    <li class="top_nav__item"><a class="top_nav__link text text--white text--size_m" href="#">Recruitment Partners</a></li>
+                    <li class="top_nav__item"><a class="top_nav__link text text--white text--size_m" href="#">Students</a></li>
+                    <li class="top_nav__item"><a class="top_nav__link text text--white text--size_m" href="#">Search</a></li>
+                    <li class="top_nav__item"><input class="top_nav__button button text text--white text--size_m" value="Log In/Sign Up" type="submit"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Login container-->
+    <div class="login page_login">
+        <h2 class="login__title text--size_l">Login to APLICAR</h2>
+        <form class="form login__form">
+            <input class="form__input input text--size_s" type="email" placeholder="Email"><br>
+            <input class="form__input input text--size_s" type="password" placeholder="Password"><br>
+            <div class="form__content form__content--visible form__content--hidden">
+                <div class="form__remember_me">
+                    <input class="form__checkbox" id="remember_me" type="checkbox" />
+                    <label class="form__label text--size_s" for="remember_me">Remember me</label>
+                </div>
+                <div class="form__forgot_password">
+                    <a class="form__forgot_password_link forgot_password_link text--size_s" href="#">Forgot your password?</a>
+                </div>
+            </div>
+            <input class="form__submit button text--size_m text--white" value="Login" type="submit">
+            <a class="form__forgot_password_link forgot_password_link form__forgot_password_link--visible form__forgot_password_link--hidden text--size_m" href="#">Forgot your password?</a>
+        </form>
+    </div>
+
+    <!-- SignUp container-->
+    <div class="sign_up page__sign_up">
+        <div class="sign_up__content content">
+            <h2 class="sign_up__title text--size_l">Hello Friends!</h2>
+            <p class="sign_up__text text--size_m">Enter your personal detail and start journey with us </p>
+            <button class="sign_up__button button text--size_m sign_up__button--border sign_up__button--highlight">Sign up as Student</button>
+            <button class="sign_up__button button text--size_m sign_up__button--border">Sign up as Partner</button>
+        </div>
+    </div>
+
+    <footer></footer>
+
+    <!-- Javascript for toggling between top nav menu -->
+    <script>
+        function myFunction() {
+            var display = document.getElementsByClassName("top_nav")[0].style.display;
+            if (display == "block") {
+                document.getElementsByClassName("top_nav")[0].style.display = "none";
+                document.getElementsByClassName("login")[0].style.marginTop = "0px";
+            } else {
+                document.getElementsByClassName("top_nav")[0].style.display = "block";
+                document.getElementsByClassName("login")[0].style.marginTop = "150px";
+            }
+        }
+    </script>
+
+</body>
+
 </html>
