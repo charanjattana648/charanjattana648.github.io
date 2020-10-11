@@ -1,0 +1,84 @@
+@media only screen and (min-width:699px) and (max-width:767px) {
+    .text--size_l {
+        font-size: 17px;
+    }
+    .text--size_m {
+        font-size: 7px;
+    }
+    .text--size_s {
+        font-size: 6px;
+    }
+    .form__label,
+    .forgot_password_link {
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:799px) {
+    .text--size_l {
+        font-size: 20px;
+    }
+    .text--size_m {
+        font-size: 7px;
+    }
+    .text--size_s {
+        font-size: 6px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 893px) {
+    .text--size_l {
+        font-size: 20px;
+    }
+    .text--size_m {
+        font-size: 8px;
+    }
+    .text--size_s {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (min-width: 894px) and (max-width: 935px) {
+    .text--size_l {
+        font-size: 24px;
+    }
+    .text--size_m {
+        font-size: 9px;
+    }
+    .text--size_s {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 936px) and (max-width: 999px) {
+    .text--size_m {
+        font-size: 10px;
+    }
+    .text--size_s {
+        font-size: 8px;
+    }
+}
+
+@media (min-width:1000px) {
+    .text--size_m {
+        font-size: 11px;
+    }
+    .text--size_s {
+        font-size: 9px;
+    }
+}
+
+@media (min-width:1084px) {
+    .text--size_m {
+        font-size: 15px;
+    }
+    .text--size_s {
+        font-size: 11px;
+    }
+}
+
+@media (min-width:1200px) {
+    .text--size_m {
+        font-size: 16px;
+    }
+}
