@@ -26,7 +26,7 @@
     }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 893px) {
+@media only screen and (min-width: 800px) and (max-width: 894px) {
     .text--size_l {
         font-size: 20px;
     }
@@ -50,7 +50,7 @@
     }
 }
 
-@media only screen and (min-width: 936px) and (max-width: 999px) {
+@media only screen and (min-width: 936px) and (max-width: 1000px) {
     .text--size_m {
         font-size: 10px;
     }
