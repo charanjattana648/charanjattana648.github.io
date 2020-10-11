@@ -1,0 +1,301 @@
+    /* for mobile media */
+    
+    @media only screen and (min-width: 200px) and (max-width: 699px) {
+        .page {
+            background-color: #f7cf6d;
+        }
+        /* CSS for header */
+        .page__header {
+            margin: 0;
+            padding-bottom: 54px;
+        }
+        .header {
+            background-color: #30365b;
+        }
+        .header__content {
+            margin: 0 0 0 10%;
+            float: left;
+            padding-top: 20px;
+            width: 89%;
+        }
+        .header__title {
+            margin: 0px;
+            width: 80.32%;
+        }
+        .header__nav_button {
+            margin-top: -7px;
+        }
+        .header__nav_button--visible {
+            display: block;
+        }
+        .top_nav {
+            width: 100%;
+            position: fixed;
+            left: 0;
+        }
+        .top_nav--hidden {
+            display: none;
+        }
+        .menu {
+            width: 100%;
+            background-color: #30365b;
+            text-align: center;
+        }
+        .top_nav__menu {
+            margin: 0;
+        }
+        .top_nav__item {
+            display: block;
+            padding: 10px 0 0 0;
+        }
+        .top_nav__button {
+            width: auto;
+        }
+        /* CSS for login and signup */
+        .page_login {
+            margin: 0;
+        }
+        .login,
+        .sign_up {
+            width: 100%;
+            height: auto !important;
+            border: none;
+            border-radius: 0;
+            float: none;
+        }
+        .login__title {
+            margin: 0;
+            padding: 3vh;
+        }
+        /*CSS for form  */
+        .form {
+            width: 80%;
+            display: block;
+        }
+        .login__form {
+            padding-bottom: 3vh;
+        }
+        .form__input {
+            padding: 12px 20px;
+        }
+        .form__content--hidden {
+            display: none;
+        }
+        .form__forgot_password_link {
+            margin: 23px auto;
+            padding-bottom: 8px;
+        }
+        .form__forgot_password_link--visible {
+            display: block;
+        }
+        .forgot_password_link {
+            width: 54%;
+            border-bottom: 3px solid #363636;
+        }
+        .form__submit,
+        .sign_up__button {
+            padding: 12px 20px;
+        }
+        .content {
+            width: 80%;
+        }
+        .page__sign_up {
+            margin: 0;
+        }
+        .sign_up__content {
+            padding: 3vh;
+        }
+        .signUp__title {
+            margin-bottom: 42px;
+        }
+        .sign_up__text {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    @media only screen and (min-device-width: 240px) and (max-device-width: 240px) and (orientation: portrait) {
+        .form__forgot_password_link {
+            width: 52%;
+        }
+        .text--size_m {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 240px) and (max-device-width: 240px) and (orientation: portrait) {
+        .form__forgot_password_link {
+            width: 52%;
+        }
+        .text--size_m {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 280px) and (max-device-width: 280px) and (orientation: portrait) {
+        .text--size_m {
+            font-size: 12px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-width: 320px) and (orientation: landscape) {
+        .form__forgot_password_link {
+            width: 39%;
+        }
+        .text--size_m {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (min-width: 360px) and (max-width: 640px) {
+        .form__forgot_password_link {
+            width: 56%;
+        }
+    }
+    
+    @media only screen and (min-width: 414px) and (max-width: 846px) {
+        .form__forgot_password_link {
+            width: 48%;
+        }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-width: 320px) and (orientation: portrait) {
+        .form__forgot_password_link {
+            width: 63%;
+        }
+    }
+    
+    @media only screen and (min-device-width: 568px) and (max-device-width: 568px) and (orientation: landscape) {
+        .form__forgot_password_link {
+            width: 36%;
+        }
+        .login__title {
+            padding-top: 20px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 640px) and (max-device-width: 640px) and (orientation: landscape) {
+        .form__forgot_password_link {
+            width: 32%;
+        }
+        .login__title {
+            padding-top: 20px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-width: 375px) and (orientation: portrait) {
+        .form__forgot_password_link {
+            width: 54%;
+        }
+    }
+    
+    @media only screen and (min-device-width: 653px) and (max-device-width: 653px) and (orientation: landscape) {
+        .form__forgot_password_link {
+            width: 31%;
+        }
+        .login__title {
+            padding-top: 20px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 667px) and (max-device-width: 667px) and (orientation: landscape) {
+        .form__forgot_password_link {
+            width: 30%;
+        }
+        .login__title {
+            padding-top: 20px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 731px) and (max-device-width: 732px) and (orientation: landscape) {
+        .sign_up,
+        .login {
+            height: 67.75vh !important;
+        }
+        .page__header {
+            margin-bottom: 2%;
+        }
+    }
+    
+    @media only screen and (min-device-width: 736px) and (max-device-width: 736px) and (orientation: landscape) {
+        .sign_up,
+        .login {
+            height: 67.75vh !important;
+        }
+        .page__header {
+            margin-bottom: 2%;
+        }
+    }
+    
+    @media only screen and (min-device-width:740px) and (max-device-width: 740px) and (orientation: landscape) {
+        .sign_up,
+        .login {
+            height: 70.75vh !important;
+        }
+        .page__header {
+            margin-bottom: 1%;
+        }
+    }
+    
+    @media only screen and (min-device-width:812px) and (max-device-width: 812px) and (orientation: landscape) {
+        .sign_up,
+        .login {
+            height: 70.75vh !important;
+        }
+        .page__header {
+            margin-bottom: 1%;
+        }
+    }
+    
+    @media only screen and (min-device-width:823px) and (max-device-width: 823px) and (orientation: landscape) {
+        .sign_up,
+        .login {
+            height: 70.75vh !important;
+        }
+        .page__header {
+            margin-bottom: 2%;
+        }
+    }
+    
+    @media only screen and (min-device-width:846px) and (max-device-width: 846px) and (orientation: landscape) {
+        .sign_up,
+        .login {
+            height: 67.75vh !important;
+        }
+        .page__header {
+            margin-bottom: 2%;
+        }
+    }
+    
+    @media only screen and (min-device-width: 896px) and (max-device-width: 896px) and (orientation: landscape) {
+        .sign_up,
+        .login {
+            height: 70.75vh !important;
+        }
+        .page__header {
+            margin-bottom: 2%;
+        }
+    }
+    
+    @media only screen and (min-device-width: 1200px) and (max-device-width: 1200px) and (orientation: portrait) {
+        .sign_up,
+        .login {
+            height: 33.75vh !important;
+        }
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
+        }
+    }
+    
+    @media only screen and (min-device-width: 1600px) and (max-device-width: 1600px) and (orientation: landscape) {
+        .sign_up,
+        .login {
+            height: 44.75vh !important;
+        }
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
+        }
+    }
