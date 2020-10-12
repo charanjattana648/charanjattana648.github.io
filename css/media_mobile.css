@@ -284,6 +284,19 @@
         }
     }
     
+    @media only screen and (min-device-width: 412px) and (max-device-width: 914px) and (orientation: landscape) {
+        .page__header {
+            margin-bottom: 2%;
+        }
+        .sign_up,
+        .login {
+            height: 69.75vh !important;
+        }
+        .login__title {
+            padding-top: 10.495vh !important;
+        }
+    }
+    
     @media only screen and (min-device-width: 896px) and (max-device-width: 896px) and (orientation: landscape) {
         .page__header {
             margin-bottom: 2%;
