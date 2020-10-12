@@ -209,72 +209,88 @@
     }
     
     @media only screen and (min-device-width: 731px) and (max-device-width: 732px) and (orientation: landscape) {
+        .page__header {
+            margin-bottom: 2%;
+        }
         .sign_up,
         .login {
             height: 67.75vh !important;
         }
-        .page__header {
-            margin-bottom: 2%;
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
         }
     }
     
     @media only screen and (min-device-width: 736px) and (max-device-width: 736px) and (orientation: landscape) {
+        .page__header {
+            margin-bottom: 2%;
+        }
         .sign_up,
         .login {
             height: 67.75vh !important;
         }
-        .page__header {
-            margin-bottom: 2%;
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
         }
     }
     
     @media only screen and (min-device-width:740px) and (max-device-width: 740px) and (orientation: landscape) {
+        .page__header {
+            margin-bottom: 1%;
+        }
         .sign_up,
         .login {
             height: 70.75vh !important;
         }
-        .page__header {
-            margin-bottom: 1%;
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
         }
     }
     
     @media only screen and (min-device-width:812px) and (max-device-width: 812px) and (orientation: landscape) {
+        .page__header {
+            margin-bottom: 1%;
+        }
         .sign_up,
         .login {
             height: 70.75vh !important;
         }
-        .page__header {
-            margin-bottom: 1%;
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
         }
     }
     
     @media only screen and (min-device-width:823px) and (max-device-width: 823px) and (orientation: landscape) {
+        .page__header {
+            margin-bottom: 2%;
+        }
         .sign_up,
         .login {
             height: 70.75vh !important;
-        }
-        .page__header {
-            margin-bottom: 2%;
         }
     }
     
     @media only screen and (min-device-width:846px) and (max-device-width: 846px) and (orientation: landscape) {
+        .page__header {
+            margin-bottom: 2%;
+        }
         .sign_up,
         .login {
             height: 67.75vh !important;
         }
-        .page__header {
-            margin-bottom: 2%;
-        }
     }
     
     @media only screen and (min-device-width: 896px) and (max-device-width: 896px) and (orientation: landscape) {
+        .page__header {
+            margin-bottom: 2%;
+        }
         .sign_up,
         .login {
             height: 70.75vh !important;
-        }
-        .page__header {
-            margin-bottom: 2%;
         }
     }
     
