@@ -250,7 +250,7 @@
         }
     }
     
-    @media only screen and (min-device-width:812px) and (max-device-width: 812px) and (orientation: landscape) {
+    @media only screen and (min-device-width:750px) and (max-device-width: 812px) and (orientation: landscape) {
         .page__header {
             margin-bottom: 1%;
         }
