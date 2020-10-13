@@ -250,6 +250,20 @@
         }
     }
     
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+        page__header {
+            margin-bottom: 1%;
+        }
+        .sign_up,
+        .login {
+            height: 70.75vh !important;
+        }
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
+        }
+    }
+    
     @media screen and (min-device-width:750px) and (max-device-width: 812px) and (orientation: landscape) {
         .page__header {
             margin-bottom: 1%;
