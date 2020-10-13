@@ -273,7 +273,7 @@
     }
     
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-        page__header {
+        .page__header {
             margin-bottom: 1%;
         }
         .sign_up,
