@@ -270,6 +270,9 @@
         page__header {
             margin-bottom: 1%;
         }
+        .header__nav_button--visible {
+            display: block;
+        }
         .sign_up,
         .login {
             height: 70.75vh !important;
