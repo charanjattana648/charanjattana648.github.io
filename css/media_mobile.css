@@ -249,8 +249,39 @@
             padding-top: 8.495vh;
         }
     }
+    /* Iphone 11 Landscape */
+    
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+        page__header {
+            margin-bottom: 1%;
+        }
+        .sign_up,
+        .login {
+            height: 70.75vh !important;
+        }
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
+        }
+    }
+    /* Iphone 11 pro landscape */
     
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+        page__header {
+            margin-bottom: 1%;
+        }
+        .sign_up,
+        .login {
+            height: 70.75vh !important;
+        }
+        .login__title,
+        .sign_up__content {
+            padding-top: 8.495vh;
+        }
+    }
+    /* Iphone 11 Pro Max */
+    
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
         page__header {
             margin-bottom: 1%;
         }
