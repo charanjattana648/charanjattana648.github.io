@@ -264,14 +264,17 @@
             padding-top: 8.495vh;
         }
     }
-    /* Iphone 11 pro landscape */
+    /* Iphone 11 pro */
+    
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+        .header__nav_button--visible {
+            display: block;
+        }
+    }
     
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
         page__header {
             margin-bottom: 1%;
-        }
-        .header__nav_button--visible {
-            display: block;
         }
         .sign_up,
         .login {
