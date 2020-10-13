@@ -249,7 +249,7 @@
             padding-top: 8.495vh;
         }
     }
-    /* Iphone 11 Landscape */
+    /* Iphone 11 */
     
     @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
         .page__header {
