@@ -251,7 +251,7 @@
     }
     /* Iphone 11 Landscape */
     
-    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
         .page__header {
             margin-bottom: 1%;
         }
@@ -287,7 +287,7 @@
     }
     /* Iphone 11 Pro Max */
     
-    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
         .page__header {
             margin-bottom: 1%;
         }
